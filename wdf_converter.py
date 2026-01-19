@@ -52,11 +52,11 @@ from typing import List, Optional, Union, Tuple
 import argparse
 import logging
 import sys
-from tqdm import tqdm
 
 import numpy as np
 import pandas as pd
 from renishawWiRE import WDFReader
+from tqdm import tqdm
 
 def get_filenames(
         dir_path: str,
