@@ -40,6 +40,7 @@ python wdf_converter.py <import_dir_path> <export_dir_path> [options]
     * Creates one `.txt` file per spectrum.
     * For each `.wdf` file, a parent folder, with the same basename as the WDF file, is created in the export directory.
     * Each spectrum contained in the `.wdf` file is then exported as a seperate individual `.txt` file inside this folder.
+    * The first, and second columns of the `.txt` file corresponds to the raman shifts and intensities of the spectrum, respectively.
   * `csv`: 
     * Creates one `.csv` file per `.wdf` file.
     * For each `.wdf` file, a single `.csv` file, with the same basename as the WDF file, containing all spectra is exported.
